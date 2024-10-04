@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import MyCv from "./cv.pdf";
-import { Link } from "react-router-dom";
 import { Link } from "react-scroll";
 
 function Home({ theme, changeTheme }) {
