@@ -1,13 +1,17 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./SidebarList.css";
 import profilepic from "../../Image/a.jpg";
-import { BsFillHouseFill , BsFillPersonFill , BsMortarboardFill ,BsBriefcaseFill    } from "react-icons/bs";
+import {
+  BsFillHouseFill,
+  BsFillPersonFill,
+  BsMortarboardFill,
+  BsBriefcaseFill,
+} from "react-icons/bs";
 import { DiCodeBadge } from "react-icons/di";
 import { FiGlobe } from "react-icons/fi";
 import { FaChessBoard } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
-
-
 
 import {
   FcNightPortrait,
@@ -28,7 +32,7 @@ function SidebarList({ expandSidebar }) {
       {expandSidebar ? (
         <div className="navbar-items">
           <div className="sidebar-profile-pic">
-            <img src={profilepic} alt="profile picture" />
+            <img src={profilepic} />
           </div>
           <ul>
             <li className="nav-item">
@@ -39,7 +43,7 @@ function SidebarList({ expandSidebar }) {
                 duration={100}
                 offset={-100}
               >
-                <BsFillHouseFill size={25} />  Accueil
+                <BsFillHouseFill size={25} /> Accueil
               </Link>
             </li>
 
@@ -52,7 +56,6 @@ function SidebarList({ expandSidebar }) {
                 offset={-100}
               >
                 <BsFillPersonFill size={25} /> À propos de moi
-
               </Link>
             </li>
             <li className="nav-item">
@@ -63,7 +66,8 @@ function SidebarList({ expandSidebar }) {
                 duration={100}
                 offset={-100}
               >
-                <BsBriefcaseFill size={25} />Expérience 
+                <BsBriefcaseFill size={25} />
+                Expérience
               </Link>
             </li>
             <li className="nav-item">
@@ -74,7 +78,8 @@ function SidebarList({ expandSidebar }) {
                 duration={100}
                 offset={-100}
               >
-                <FiGlobe size={25}  />Technologies
+                <FiGlobe size={25} />
+                Technologies
               </Link>
             </li>
             <li className="nav-item">
@@ -85,7 +90,7 @@ function SidebarList({ expandSidebar }) {
                 duration={100}
                 offset={-100}
               >
-                <BsMortarboardFill size={25}  /> Formation
+                <BsMortarboardFill size={25} /> Formation
               </Link>
             </li>
             <li className="nav-item">

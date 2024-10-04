@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./About.css";
 import ProfilePic from "../../Image/a.jpg";
@@ -8,7 +9,7 @@ function About() {
       <div className="row">
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div className="about-image">
-            <img src={ProfilePic} alt="Profile Photo" />
+            <img src={ProfilePic}  />
           </div>
         </div>
 

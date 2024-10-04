@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from "react";
 import "./Contact.css";
 import { RiSendPlaneFill } from "react-icons/ri";
@@ -59,7 +60,7 @@ const Contact = () => {
             <div className="contact-form-iamge">
               <img
                 src="https://images.pexels.com/photos/1852361/pexels-photo-1852361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="contact form image"
+                
               />
             </div>
           </div>
