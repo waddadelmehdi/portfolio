@@ -1,0 +1,100 @@
+.home {
+  height: 400px;
+  color: white;
+}
+
+.home-content {
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.home-content h3 {
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.button-for-action {
+  display: flex;
+}
+
+.hire-me-button {
+  background-color: #000000;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 2px solid white;
+  font-size: 17px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.hire-me-button:hover {
+  background-color: white;
+  width: 250px;
+  color: black;
+  transition-duration: 1s;
+}
+
+.get-resume-button {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 90px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 2px solid white;
+  font-size: 17px;
+  margin-left: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.get-resume-button:hover {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  color: black;
+  transition-duration: 1s;
+}
+
+.get-resume-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.theme-change {
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: #001cce;
+  right: 0;
+  margin-right: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  position: fixed;
+  top: 150;
+  margin-top: 250px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.sun-theme-icon {
+  animation: rotation infinite 5s linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 1000px) {
+  .theme-change {
+    display: none;
+  }
+}

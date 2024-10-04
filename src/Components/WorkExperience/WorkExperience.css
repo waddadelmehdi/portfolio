@@ -1,0 +1,28 @@
+.workexperience-section {
+  margin-top: 70px;
+}
+
+.timeline-section {
+  margin-top: 20px;
+}
+
+.tech-skills p {
+  background-color: rgb(0, 0, 0);
+  border-radius: 90px;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+}
+
+.tech-skills p:hover {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  color: black;
+}
+.date-class {
+  color: rgb(0, 0, 0);
+}
+
+#dark .date-class {
+  color: rgb(0, 0, 0);
+}
