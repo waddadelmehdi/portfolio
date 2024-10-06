@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./Home.css";
 import Typewriter from "typewriter-effect";
 import MyCv from "./cv.pdf";
-import { Link } from "react-scroll";
+
 
 function Home({ theme, changeTheme }) {
   return (
@@ -13,10 +14,11 @@ function Home({ theme, changeTheme }) {
           <Typewriter
             options={{
               strings: [
-                "Full Stack Software Developer",
-                "IT Engineer",
-                "Web Developer",
-                "Mobile Developer",
+                "Administrateur Système",
+                "Administrateur Cloud",
+                "Développeur Web",
+                "Développeur Mobile",
+                "Ingénieur DevOps"
               ],
               autoStart: true,
               loop: true,

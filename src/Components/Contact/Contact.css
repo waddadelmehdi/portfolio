@@ -1,5 +1,5 @@
 .contact-section {
-  height: 950px;
+  height: 600px;
   margin-left: 20%;
   
 
@@ -9,15 +9,9 @@
 }
 
 .contact-form-design {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
-#dark .contact-section {
-  background-color: #000000;
-  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
-  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
-  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
-}
 
 .contact-form-iamge img {
   height: 600px;
@@ -69,3 +63,25 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+.container11 {
+  position: absolute;
+  width: 25%;
+  height: 60%;
+  perspective: 10px;
+  background: linear-gradient(45deg, #000000 25%, transparent 25%),
+    linear-gradient(
+      -135deg,
+      #000000 25%,
+      transparent 25%,
+      transparent 75%,
+      #000000 75%,
+      #000000
+    );
+  background-size: 30px 20px;
+}
+#linkedin-link {
+  text-decoration: none;
+  color: black;    
+  margin-left: 3px;
+  margin-right: 20px;
+}
